@@ -20,7 +20,7 @@ class TCPClient {
             outToServer.writeBytes(sentence+"\n");
             modifiedSentence = inFromServer.readLine();
             System.out.println(modifiedSentence);
-            System.out.println("Enter your message: ");
+            System.out.println("Enter your message here: ");
             sentence = inFormUser.readLine();
         }
 
